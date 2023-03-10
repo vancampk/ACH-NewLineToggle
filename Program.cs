@@ -6,9 +6,7 @@
         public const int lineSize = 94;
         static void Main(string[] args)
         {
-            // C:\Users\vanca\Documents\GitHub\ACH-NewLineToggle\bin\Debug\net7.0\add_line_breaks.ach
             // Read File
-            // Console.WriteLine("Please enter in file path to format...");
             string file = args.ToList().First() ?? string.Empty;
             args.ToList().ForEach(a => Console.WriteLine(a));
             if (File.Exists(file))
